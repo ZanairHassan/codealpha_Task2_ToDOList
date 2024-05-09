@@ -16,7 +16,7 @@ function addTask() {
         deleteButton.addEventListener('click', function() {
             taskItem.remove();
             // Show pop-up message
-            alert('Task deleted successfully!');
+            alert('Task has deleted successfully!');
         });
 
         // Add update button
@@ -27,7 +27,7 @@ function addTask() {
             if (updatedText !== null && updatedText.trim() !== '') {
                 taskItem.textContent = updatedText.trim();
                 // Show pop-up message
-                alert('Task updated successfully!');
+                alert('Task has updated successfully!');
             }
         });
 
@@ -38,6 +38,6 @@ function addTask() {
         taskInput.value = '';
 
         // Show pop-up message
-        alert('Task added successfully!');
+        alert('Task has added successfully!');
     }
 }
